@@ -29,6 +29,8 @@ chrome.webRequest.onBeforeRequest.addListener( function () {
          "*://11-edge-chat.messenger.com/*",
          "*://12-edge-chat.messenger.com/*",
          "*://13-edge-chat.messenger.com/*",
+         "*://www.messenger.com/ajax/messaging/*",
+         "*://www.messenger.com/ajax/mercury/*",
          "*://www.facebook.com/ajax/bz/"]
 },
   ["blocking"]
